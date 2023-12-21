@@ -1,6 +1,43 @@
-h1 {
-    font-family: 'Times New Roman', Times, serif ;
-}
+
 .diff-bg {
     background-color: maroon !important;
 }
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: beige;
+}
+
+h1 { font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+     color: black;}
+
+
+.header {
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    color: maroon;
+    text-align: center;
+    font-size: xx-large;
+
+}
+.nav {
+    position: relative;
+    <br>
+    float: Left;
+    z-index: 1;
+}
+.mainbody {
+    top: 75 px;
+    width: 100%;
+}
+.footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    font-style: italic;
+    font-size: small;
+    text-align: center;
+    background-color: black;
+    z-index: 2; }
